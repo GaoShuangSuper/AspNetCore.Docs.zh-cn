@@ -263,7 +263,7 @@ Razor 可以从 HTML 转换为 C# 或 Razor 特定标记。 当 `@` 符号后跟
 
 选择菜单链接（“RazorPagesMovie”  、“主页”  和“隐私”  ）。 每页显示相同的菜单布局。 菜单布局是在 Pages/Shared/_Layout.cshtml  文件中实现。 打开 Pages/Shared/_Layout.cshtml  文件。
 
-[布局](xref:mvc/views/layout)模板使你能够在一个位置指定网站的 HTML 容器布局，然后将它应用到网站中的多个页面。 查找 `@RenderBody()` 行。 `RenderBody` 是显示所创建的全部页面专用视图的占位符，已包装  在布局页中。 例如，如果选择“隐私”  链接，Pages/Privacy.cshtml  视图在 `RenderBody` 方法中呈现。
+[布局](xref:mvc/views/layout)模板使你能够在一个位置去指定网站的 HTML 容器布局，然后将它应用到网站中的多个页面。 查找 `@RenderBody()` 行。 `RenderBody` 是显示所创建的全部页面专用视图的占位符，已包装  在布局页中。 例如，如果选择“隐私”  链接，Pages/Privacy.cshtml  视图在 `RenderBody` 方法中呈现。
 
 <a name="vd"></a>
 
